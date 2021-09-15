@@ -4,8 +4,8 @@
 # you may not use this file except in compliance with the License.
 # inline credit @keselekpermen69
 #
-# Ported by Apis @PacarFerdilla
-# Repository (King - Userbot)
+# Ported by Apis @urfavresh
+# Repository (Naresh - Userbot)
 """ Userbot initialization. """
 
 
@@ -354,7 +354,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Telah Aktif```")
+    await bot.send_message(BOTLOG_CHATID, "```⚡𝙉𝙖𝙧𝙚𝙨𝙝-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Telah Aktif```")
     return
 
 with bot:
@@ -540,12 +540,12 @@ with king:
                 u = await event.client.get_entity(event.chat_id)
                 await event.message.get_sender()
                 text = (
-                    f"👋🏻 Hai [{get_display_name(u)}](tg://user?id={u.id}) **Ini Adalah Alive**\n\n"
+                    f"👋🏻EH KONTOL [{get_display_name(u)}](tg://user?id={u.id}) **Ini Adalah Alive**\n\n"
                     f"__**{KING_TEKS_KUSTOM}**__ \n\n"
                     "=============================\n"
                     f"       **Alive Bot** \n"
                     "=============================\n"
-                    f"`Pengguna  :` [{get_display_name(u)}](tg://user?id={u.id}) \n"
+                    f"`SIKONTOL  :` [{get_display_name(u)}](tg://user?id={u.id}) \n"
                     f"`Branch    :` {UPSTREAM_REPO_BRANCH} \n"
                     f"`Versi Bot :` v{BOT_VER} \n"
                     f"`Plugins   :` {len(plugins)} \n"
